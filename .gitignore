@@ -1,0 +1,56 @@
+# ============================================================
+# .gitignore — Explainable Fraud Detection Web Application
+# ============================================================
+
+# Data files (strictly excluded)
+*.csv
+!artifacts/master_table.csv
+*.tsv
+data/
+test_transactions.csv
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook Checkpoints & runtime
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Streamlit runtime & credentials
+.streamlit/secrets.toml
+
+# IDE & Editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs & temp files
+*.log
+*.tmp
+temp/
+tmp/
+
